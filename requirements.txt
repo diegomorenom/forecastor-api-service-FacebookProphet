@@ -4,7 +4,7 @@ pandas==2.2.1
 pmdarima==2.0.4
 prophet==1.1.5
 pydantic==2.6.4
-python-multipart-0.0.9
+python-multipart
 scikit_learn==1.4.1.post1
 scipy==1.12.0
 tqdm==4.66.2
