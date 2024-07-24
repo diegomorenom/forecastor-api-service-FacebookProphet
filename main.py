@@ -86,7 +86,7 @@ async def process_forecast(prediction_column: str = Form(...),
 
     # FORECAST PROCESS CODE   
     selected_models = selected_models.translate({ord(c): None for c in string.whitespace})
-    selected_models_list = selected_models.split(',')
+    selected_models_list = ['FacebookProphet']#selected_models.split(',')
     print(f"Received forecast days: {forecast_days}")
     print(f"Received selected models: {selected_models_list}")
     #print(f"Received forecasting type: {forecasting_type}")
